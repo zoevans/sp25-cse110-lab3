@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Meeting_Notes</title>
+    <meta name="author" content="Zoey Evans">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <main>
+        <h1>Practice <span style="color:blue">Card Project</span> Brainstorm</h1>
+
+        <header>
+            <p>Team Meeting Page Images:</p>
+            <nav>
+                <a href="/images/favicon.ico">Favicon</a> <br>
+                <a href="/images/IMG_0578.jpg">Whiteboard</a>
+    
+            </nav>
+        </header>
+
+        <h2>Topic: Brainstorming Session</h2>
+
+        <section>
+            <p>Date:</p>
+            <input type="date" value="2025-04-14" min="2025-04-01" max="2025-04-30"> <br>
+            <p>Meeting Start Time:</p>
+
+            <input list = "start-time">
+
+            <datalist id="start-time">
+                <option value="12:00pm"></option>
+                <option value="1:00pm"></option>
+                <option value="2:00pm"></option>
+                <option value="3:00pm"></option>
+                <option value="4:00pm"></option>
+                <option value="5:00pm"></option>
+            </datalist>
+            
+
+            <h3>Attendance List:</h3>
+            <fieldset id="attendanceList">
+                <input type="checkbox" id="name1" name="name1" value="Zoey">
+                <label for="name1"> Zoey</label><br>
+                <input type="checkbox" id="name2" name="name2" value="Anna"> 
+                <label for="name2"> Anna</label><br>
+                <input type="checkbox" id="name3" name="name3" value="Sarah"> 
+                <label for="name3"> Sarah</label><br>
+                <input type="checkbox" id="name4" name="name4" value="Luis"> 
+                <label for="name4"> Luis</label><br>
+            </fieldset>
+
+            <p>Members Absent:</p>
+            <select name="attendance">
+                <option value="1">0</option>
+                <option value="1">1</option>
+                <option value="1">2</option>
+                <option value="1">3</option>
+                <option value="1">4</option>
+            </select>
+
+
+
+        </section>
+
+        <hr>
+
+        <section>
+            <h3>Unfinished Business:</h3>
+            <ul>
+                <li>Team name</li>
+                <li>Team Branding Finalization</li>
+                <li>Team mascot</li>
+            </ul>
+
+            <h3>New Business:</h3>
+            <ul>
+                <li>Project concept idea</li>
+                <li>Team roles</li>
+                <li>Team tools</li>
+            </ul>
+
+            <details>
+                <summary>Tools Reminder:</summary>
+                We're <b>NOT</b> allowed to use CSS in this class!
+            </details>
+
+            <h2><em>Today's Agenda:</em></h2>
+                <ol>
+                    <li>Finalize team materials and branding</li>
+                    <li>Team vote/discussion on team roles</li>
+                    <li>Team vote/discussion on team tools</li>
+                    <li><strong>Brainstorm Concepts for Card Project</strong></li>
+                </ol>
+            
+            <div class="myDiv">
+                <p><i>Additional</i> Comments/Questions/Concerns:</p>
+                <textarea rows="5">Insert additional thoughts here...</textarea>
+            </div>
+        
+
+        </section>
+
+        <section>
+            <h3>Diagrams Presented:</h3>
+            <img src="/images/IMG_0578.jpg" alt="whiteboard" style="width:600px;height:500px;">
+
+
+            <h3>Meeting Video:</h3>
+            <video width="320" height="240" controls>
+                <source src="videos/Only_Video.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+
+            <h3>Meeting Audio:</h3>
+            <audio controls>
+                <source src="audio/Only_Audio.mp3" type="audio/mp3">
+              Your browser does not support the audio element.
+            </audio>
+        </section>
+
+
+        <p>Number of Meeting Minutes:</p>
+        <form>
+            <input type="text" id="fname" name="fname"><br>
+            <button type="button">Click Me!</button>
+        </form>
+
+        <p>Meeting Productivity on a scale of 1-4</p>
+        <input type="radio" id="1" name="scale" value="1">
+        <label for="1">1</label><br>
+        <input type="radio" id="2" name="scale" value="2">
+        <label for="2">2</label><br>
+        <input type="radio" id="3" name="scale" value="3">
+        <label for="3">3</label><br>
+        <input type="radio" id="4" name="scale" value="4">
+        <label for="4">4</label><br>
+        
+        
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>Author of the Page: Zoey Evans</p>
+    </footer>
+  </body>
+</html>

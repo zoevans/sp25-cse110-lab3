@@ -10,8 +10,26 @@ assignees: zoevans
 
 # Task:
 >Insert task title here!
-<textarea rows="5">Insert task title here!</textarea>
+
+- type: textarea
+  id: title
+  attributes:
+    label: title
+    description: "Insert a task title that is a clear title of the task."
+    value: Insert task title here!
+    render:
+  validations:
+    required: true
 
 ### Description:
->Insert a description of the task here!
-<textarea rows="5">Insert a description of the task here!</textarea>
+>Insert a task description here!
+>
+- type: textarea
+  id: description
+  attributes:
+    label: description
+    description: "Insert a task description that is a clear descriptor of the task."
+    value: Insert task description here!
+    render:
+  validations:
+    required: true

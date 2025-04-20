@@ -1,1 +1,25 @@
+---
+name: CSE 110 Lab issue template
+about: The purpose of this issue template is to track and break down all of this week's lab tasks.
+title: ''
+labels: ''
+assignees: zoevans
 
+body:
+  - type: textarea
+    id: title
+    attributes:
+      label: Task Title
+      description: Enter a clear task title.
+      placeholder: Insert task title here!
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Task Description
+      description: Provide a description of the task.
+      placeholder: Insert task description here!
+    validations:
+      required: true

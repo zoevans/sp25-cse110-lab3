@@ -1,2 +1,2 @@
-# Lab 2 - Starter
-https://zoevans.github.io/Lab2_Starter/
+# Lab 3
+https://zoevans.github.io/sp25-cse110-lab3/

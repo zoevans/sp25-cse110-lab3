@@ -1,8 +1,8 @@
 ---
 name: "CSE 110 Lab issue template"
 description: "The purpose of this issue template is to track and break down all of this week's lab tasks."
-title: ""
-labels: ""
+title: "Lab issue template"
+labels: "task"
 assignees: zoevans
 
 body:

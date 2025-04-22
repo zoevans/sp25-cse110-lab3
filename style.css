@@ -50,11 +50,11 @@ h1, h2, h3 {
     color: color(display-p3 0 0 2);
     
     display:flex;
-    gap: 10pt;
-    column-gap: 5em;
-    row-gap: 2em;
+    gap: 1pt;
+    column-gap: 0.1em;
+    row-gap: 0.1em;
     justify-content: space-evenly;
-    flex-shrink: 3;
+    flex-shrink: 1;
 
     
 }
@@ -114,4 +114,26 @@ li:has(+ li) {
 
 h3[class="video-title"]{
     text-decoration-style:dotted;
+}
+
+@media (min-width: 375px) and (max-width: 932px) {
+    body{
+        display:
+    }
+}
+
+@media (max-width: 374px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+}
+
+@media (min-width: 933px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
 }

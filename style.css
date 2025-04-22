@@ -2,10 +2,13 @@
     --author-color: gray;
 }
 
+/* Element Selector */
+
 body{
     background-color: rgba(229, 126, 255, 0.861);
     color: #000000;
     
+    /* Grid */
     display: grid;
     column-gap: 10pt;
     row-gap: 10pt;
@@ -14,18 +17,23 @@ body{
     text-align: center;
 }
 
+/* Child Combinator */
 
 ul.unfinished-bus > li {
+
+    /* Long Margin */
     margin-top: 10pt;
     margin-bottom: 0.1em;
-    margin-left: 4em;
-    margin-right: 3em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
 
+    /* Long Padding */
     padding-top: 5Q;
     padding-bottom: 0.2em;
     padding-left: 0.5em;
     padding-right: 0.5em;
 
+    /* Border */
     border-style: solid;
     border-width: 5px;
     border-color:antiquewhite;
@@ -37,18 +45,23 @@ ul.unfinished-bus > li {
     
 }
 
+/* Selector List */
+
 h1, h2, h3 {
     text-decoration-line: underline;
     text-decoration-style: solid;
-    text-decoration-color:color-mix(in hsl, hsl(125 60 90), purple 90%);
+    text-decoration-color:color-mix(in hsl, hsl(125 60% 90%) 10%, purple 90%);
     margin: 2em 2em 1em 2em;
 }
+
+/* ID Selector */
 
 #attendanceList {
     margin:auto;
     padding: 0.5em 2em 0.5em 0.5em; 
-    color: color(display-p3 0 0 2);
+    color: color(display-p3 0 0 1);
     
+    /* Flexbox */
     display:flex;
     gap: 1pt;
     column-gap: 0.1em;
@@ -59,41 +72,55 @@ h1, h2, h3 {
     
 }
 
+/* 3rd Party Font */
+
 @font-face {
     font-family: "myFont";
     src: url("RibeyeMarrow-Regular.ttf");
 }
 
+/* Universal Selector */
 
 * {
     font-family: "myFont";
 }
+
+/* Pseudo-class Selector */
 
 p:active {
     background:aliceblue;
     display:block;
 }
 
+
 a:hover{
     background: yellow;
 }
+
+/* Class Selector */
 
 .diagram {
     height: 5vh;
     width: 100vw;
 }
 
+/* Descendant Combinator */
+
 footer p {
     color: var(--author-color, #757272);
     position:sticky;
 }
 
+/* Adjacent Sibling Combinator */
+
 h3 + p {
     position:absolute;
 }
 
+/* Nested Selector */
+
 h3 {
-    ~ img {
+    & ~ img {
         border-style: solid;
         border-width: 5px;
         border-color:antiquewhite;
@@ -101,26 +128,29 @@ h3 {
     }
 }
 
+/* Combining Two Selectors */
+
 p.wavy {
     text-decoration-line:underline;
     text-decoration-style: wavy;
 }
 
+/* :has() selector */
 
 li:has(+ li) {
     margin-top: 2em;
     margin-bottom: 2em;
 }
 
+
+/* Attributes Selector */
+
 h3[class="video-title"]{
     text-decoration-style:dotted;
 }
 
-@media (min-width: 375px) and (max-width: 932px) {
-    body{
-        display:
-    }
-}
+
+/* Responsiveness Media Queries */
 
 @media (max-width: 374px) {
     body{

@@ -5,10 +5,12 @@
 body{
     background-color: rgba(229, 126, 255, 0.861);
     color: #000000;
+    
     display: grid;
-    display: flex;
-
+    column-gap: 10pt;
+    row-gap: 10pt;
     place-items:center;
+
     text-align: center;
 }
 
@@ -80,4 +82,18 @@ footer p {
 
 h3 + p {
     position:absolute;
+}
+
+h3 {
+    ~ img {
+        border-style: solid;
+        border-width: 5px;
+        border-color:antiquewhite;
+        border-radius: 5px;
+    }
+}
+
+p.wavy {
+    text-decoration-line:underline;
+    text-decoration-style: wavy;
 }

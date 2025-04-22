@@ -49,6 +49,14 @@ h1, h2, h3 {
     padding: 0.5em 2em 0.5em 0.5em; 
     color: color(display-p3 0 0 2);
     
+    display:flex;
+    gap: 10pt;
+    column-gap: 5em;
+    row-gap: 2em;
+    justify-content: space-evenly;
+    flex-shrink: 3;
+
+    
 }
 
 @font-face {
@@ -96,4 +104,14 @@ h3 {
 p.wavy {
     text-decoration-line:underline;
     text-decoration-style: wavy;
+}
+
+
+li:has(+ li) {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+h3[class="video-title"]{
+    text-decoration-style:dotted;
 }

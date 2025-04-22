@@ -33,7 +33,7 @@ ul.unfinished-bus > li {
 
     background-color:hsl(0, 0%, 100%);
 
-    display: inline;
+    display: block;
     
 }
 

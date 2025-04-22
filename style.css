@@ -52,3 +52,15 @@ h1, h2, h3 {
     font-family: "myFont";
 }
 
+p:active {
+    background:aliceblue;
+}
+
+a:hover{
+    background: yellow;
+}
+
+.diagram {
+    height: 5vh;
+    width: 100vw;
+}

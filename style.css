@@ -29,9 +29,17 @@ ul.unfinished-bus > li {
     
 }
 
+h1, h2, h3 {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color:color-mix(in hsl, hsl(125 60 90), purple 90%);
+    margin: 2em 2em 1em 2em;
+}
+
 #attendanceList {
-    margin: 0.5em 0.5em 5em 0.5em;
+    margin:auto;
     padding: 0.5em 2em 0.5em 0.5em; 
+    color: color(display-p3 0 0 2);
 }
 
 @font-face {

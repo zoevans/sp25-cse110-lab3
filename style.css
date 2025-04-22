@@ -14,12 +14,12 @@ body{
 
 
 ul.unfinished-bus > li {
-    margin-top: 4em;
+    margin-top: 10pt;
     margin-bottom: 0.1em;
     margin-left: 4em;
     margin-right: 3em;
 
-    padding-top: 0.2em;
+    padding-top: 5Q;
     padding-bottom: 0.2em;
     padding-left: 0.5em;
     padding-right: 0.5em;
@@ -72,4 +72,9 @@ a:hover{
 
 footer p {
     color: var(--author-color, #757272);
+    position:sticky;
+}
+
+h3 + p {
+    position:absolute;
 }

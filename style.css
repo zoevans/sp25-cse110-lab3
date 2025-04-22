@@ -1,5 +1,10 @@
 body{
     background-color: rgba(229, 126, 255, 0.861);
+    color: #000000;
+    display: grid;
+
+    place-items:center;
+    text-align: center;
 }
 
 
@@ -19,7 +24,14 @@ ul.unfinished-bus > li {
     border-color:antiquewhite;
     border-radius: 5px;
 
+    background-color:hsl(0, 0%, 100%);
+
     
+}
+
+#attendanceList {
+    margin: 0.5em 0.5em 5em 0.5em;
+    padding: 0.5em 2em 0.5em 0.5em; 
 }
 
 @font-face {
@@ -31,3 +43,4 @@ ul.unfinished-bus > li {
 * {
     font-family: "myFont";
 }
+

@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(117, 0, 146, 0.861);
+    background-color: rgba(229, 126, 255, 0.861);
 }
 
 
@@ -18,4 +18,16 @@ ul.unfinished-bus > li {
     border-width: 5px;
     border-color:antiquewhite;
     border-radius: 5px;
+
+    
+}
+
+@font-face {
+    font-family: "myFont";
+    src: url("RibeyeMarrow-Regular.ttf");
+}
+
+
+* {
+    font-family: "myFont";
 }

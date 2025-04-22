@@ -59,7 +59,7 @@ h1, h2, h3 {
 #attendanceList {
     margin:auto;
     padding: 0.5em 2em 0.5em 0.5em; 
-    color: color(display-p3 0 0 1);
+    color: color(display-p3 0 0 1, rgb(0, 0, 255));
     
     /* Flexbox */
     display:flex;
